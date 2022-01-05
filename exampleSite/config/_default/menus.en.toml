@@ -24,6 +24,26 @@ name = "FAQ"
 url = "faq"
 weight = 5
 
+[[main]]
+name = "Item"
+url = "item"
+weight = 6
+
+[[main]]
+name = "People"
+url = "Sid"
+weight = 7
+[[main]]
+parent = "People"
+name = "Abc"
+url = "abc"
+weight = 8
+[[main]]
+parent = "People"
+name = "Def"
+url = "def"
+weight = 8
+
 # footer menu left
 [[footer_left]]
 name = "About Us"
